@@ -1,0 +1,12 @@
+# Copilot Connector Ledger MCP
+
+Paid remote MCP for Copilot Studio connector permission audits, drift scans, owner signoff receipts, and compliance export packs.
+
+Website: https://copilotconnectorledger.clauxel.com/
+MCP endpoint: https://copilotconnectorledger.clauxel.com/mcp
+Server card: https://copilotconnectorledger.clauxel.com/server-card.json
+Docs: https://github.com/clauxel/copilot-connector-ledger-mcp
+
+Use case: Audit Copilot Studio connector permissions before agents inherit risky scopes.
+Authentication: Bearer token required for production use.
+Tools: check_connector_permission_risk, scan_connector_drift, request_owner_signoff, generate_audit_pack, export_connector_receipt
