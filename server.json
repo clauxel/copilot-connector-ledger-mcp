@@ -1,0 +1,27 @@
+{
+  "name": "com.clauxel.copilotconnectorledger/copilotconnectorledger-mcp",
+  "title": "Copilot Connector Ledger MCP",
+  "description": "Paid remote MCP for Copilot Studio connector permission audits, drift scans, owner signoff receipts, and compliance export packs.",
+  "version": "1.0.0",
+  "websiteUrl": "https://copilotconnectorledger.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/copilot-connector-ledger-mcp",
+  "serverCardUrl": "https://copilotconnectorledger.clauxel.com/server-card.json",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://copilotconnectorledger.clauxel.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token from the product website."
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "copilot",
+    "connector-governance",
+    "permission-audit",
+    "remote-mcp"
+  ]
+}
